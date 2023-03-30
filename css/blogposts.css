@@ -1,0 +1,52 @@
+.single-post {
+    font-size: 22px;
+    color: black;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 3px;
+    background-image: url(/images/yann-allegre-8FG9tt8qZ-8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+img {
+    opacity: 0.25;
+}
+
+.search-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+input {
+    font-size: 22px;
+}
+
+.blogposts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    margin-top: 100px;
+    margin: auto;
+}
+
+.post-date {
+    font-size: 15px;
+}
+
+.single-post:hover {
+    text-decoration: none;
+}
+
+.search-wrapper {
+    max-width: 40%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.hide{
+    display: none;
+}

@@ -1,0 +1,30 @@
+.single-post {
+    max-width: 40%;
+    margin: 100px 700px;
+    padding: 2em;
+    background: white;
+    border-radius: 0.25rem;
+    font-size: 17px;
+}
+
+@media (max-width:2100px) {
+    .single-post {
+      margin: 10px;
+      max-width: 60%;
+    }
+  }
+
+  @media (max-width:1400px) {
+    .single-post {
+      margin: 10px;
+      max-width: 80%;
+    }
+  }
+
+  @media (max-width:800px) {
+    .single-post {
+      margin: 2px;
+      min-width: 100%;
+      padding: 1em;
+    }
+  }

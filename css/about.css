@@ -1,0 +1,25 @@
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #a3c7d62e;
+    max-width: 40%;
+    margin: auto;
+    padding: 100px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    font-size:18px;
+}
+
+.background-image {
+    background-image: url("/images/yann-allegre-8FG9tt8qZ-8-unsplash_40.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}

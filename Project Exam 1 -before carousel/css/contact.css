@@ -1,0 +1,71 @@
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-top: 60px;
+    font-size:22px;
+    margin: auto;
+  }
+
+  .contact-info {
+    display: flex;
+    padding: 100px;
+    margin: 20px;
+  }
+
+  .message {
+    padding: 40px;
+    margin: 40px;
+    background-color: rgba(0, 128, 0, 0.738);
+    border-radius: 3px;
+    color: white;
+    font-size: 1.2rem;
+    max-width: 45%;
+  }
+
+  button  {
+    margin-left: 100px;
+  }
+
+  input {
+    width: 100%;
+    margin-top: 2px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  button {
+    background: rgb(11, 91, 133);
+    border: none;
+    width: 150px;
+    padding: 1rem;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 0.2rem;
+  }
+
+  label {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .form-wrapper {
+    align-items: center;
+  }
+
+  form {
+    padding: 2em;
+    background: white;
+    border-radius: 1rem;
+}
+
+  .form-error-message {
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+
